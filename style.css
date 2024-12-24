@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.prison{
+    
+    height: 100px;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+
+}
+
+.menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.menu-item:hover{
+    background-color: #2F2325;
+}
+
+.conteudo{
+    border-top: 0.4px solid white;
+    border-bottom: 0.4px solid white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+
+}
+
+.subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+
+}
+
+.botao{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+.insta{
+    color: #2F2325;
+}
+
+.botao:hover{
+    background-color: #ffffff11;
+}
+
+.maicon{
+    height: 450px;
+    
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+
+}
+
+.titulo-secundario{
+    border-top:  0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFF2E7;
+
+}
+
+.rodape{
+    padding: 32px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.personagens{
+    background: linear-gradient(to right, #2f2325 16.62%, #8e5d52 85.61%);
+    font-size: 100%;
+    
+}
+.mm{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 5px;
+
+}
+
+.casa{font-family: 'Righteous', cursive;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font: italic;
+    font-weight: 400;
+    font-size: 15px;
+    
+    background-color: #ecd6c4;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.voltar{
+    color: #2F2325;
+    text-align: left;
+
+}
+
+.casa:hover{
+    background-color: #ffffff07;
+}
+
+.titulo-personagem{
+    font-weight: 200;
+    font-size: 40px;
+    text-align: right;
+    padding-left: 350px;
+    font-family: 'Righteous', cursive;
+    color: rgb(245, 233, 210);
+    border-bottom: 3px solid #2f23250a;
+    
+}
+
+.genio{
+    font-family: 'Righteous', cursive;
+    color: rgb(245, 233, 210);
+    padding-left: 35px;
+    padding-top: 35px;
+}
+.esquematizar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pmaicon{
+    
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    height: 300px;
+    width: 250px;
+    
+}
+
+.estrutura{
+    color: #ecd6c4;
+    font-family: 'Sarala', sans-serif;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.sarat{
+    padding-top: 15px;
+    height: 200px;
+    width: 180px;
+}
+
+.t-bag{
+    padding-top: 20px;
+    height: 220px;
+    width: 180px;
+}
+
+.sucre{
+    padding-top: 15px;
+    height: 220px;
+    width: 180px;
+}
+
+.cnote{
+    padding-top: 15px;
+    height: 220px;
+    width: 180px;
+}
+
+.mah{
+    padding-top: 15px;
+    height: 230px;
+    width: 200px;
+}
+
+.temporadas{
+    background: linear-gradient(to right, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 13%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+}
+
+.temp{
+    font-family: 'Righteous', cursive;
+    color: rgb(245, 233, 210);
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
+.pp{
+    text-align: justify;
+    hyphens: auto;
+    color: #f8d1b0;
+    font-family: 'Sarala', sans-serif;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 15px;
+    text-indent: 15px;
+    font-style: italic;
+    
+    
+}
+
+
+
+
